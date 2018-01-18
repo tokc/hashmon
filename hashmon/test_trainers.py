@@ -1,0 +1,15 @@
+import hashmon_trainers
+
+a = hashmon_trainers.Trainers()
+a.load_trainers()
+input()
+a.add_item("eviloatmeal", "potion")
+input()
+a.remove_item("eviloatmeal", "item")
+input()
+a.set_timer("eviloatmeal", 98734)
+print(a.get_timer("eviloatmeal"))
+input()
+a.set_timer("someone", 49587)
+a.get_timer("someone else")
+a.save_trainers()
